@@ -1,0 +1,8 @@
+l.k|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+l.k|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+l.k|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+vulgo|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+Jordan|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+l.k|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+l.k|12345|Administrador|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg
+l.k|123|compro dia 5 de abril|#ADMIN|http://www.paiogun.com/Imagens/Horoscopo-Chines/tigre.jpg

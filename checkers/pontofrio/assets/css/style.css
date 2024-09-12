@@ -1,0 +1,102 @@
+#body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,0,212,1) 51%, rgba(0,212,255,1) 100%);}
+#lista{
+	width: 75%;
+	height: 200px;
+	resize: none;
+	border:2.5px solid white;
+	background-color: transparent;
+	text-align: center;
+	padding:0%;
+	color: white;
+	border-radius:5px;
+	
+}
+
+#aprov {
+   display: none; 
+}
+ #aprov:checked ~ #aprovaS { 
+  display: none;
+  transition-duration: 10s; 
+transition-delay: 5s;
+ } #aprov:checked ~ #aprovaM { 
+display: block;
+transition-duration: 10s;
+ transition-delay: 5s;
+ }
+
+#reprov {
+   display: none; 
+}
+ #reprov:checked ~ #reprovaS { 
+  display: none;
+ } #repro:checked ~ #reprovaM { 
+display: block;
+ }
+
+#mr{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15pt;
+	color: white;
+	font-size: 40pt;
+	margin-top: 3px;
+	padding: 0px;
+}
+#iniciar{
+	border:2.5px solid white;
+	width: 50px;
+	border-radius: 5px;
+}
+#parar{
+	border:2.5px solid white;
+	border-radius: 5px;
+	width: 50px;
+	padding:5px;
+}
+#iniciar{
+	padding:5px;
+}
+#rep{
+	background-color: transparent;
+}
+#reprovadas{
+	background-color: transparent;
+}
+#apr{
+	background-color: transparent;
+	
+}
+#reprovadas{
+	background-color: transparent;
+}
+#iniciar{
+	background-color: transparent;
+}
+#parar{
+	background-color: transparent;
+}
+
+
+
+#re {
+	poisition:relative;
+	float:right;
+	margin-top:-8px;
+	background-color:red;
+	padding:3px 4px;
+	border-top: solid 2px red;
+	border-radius:0px 0px 8px 8px;
+
+	}
+	#par {
+	poisition:relative;
+	float:right;
+	margin-top:-8px;
+	background-color:green;
+	padding:3px 4px;
+	border-top: solid 2px green;
+	border-radius:0px 0px 8px 8px;
+
+	}

@@ -1,0 +1,198 @@
+     html {
+     font-size: 19px;
+     background-color: #212121;
+     color: #1ABB9C;
+     font-family: 'Aldrich', sans-serif;
+     
+     }
+     
+     
+     body {    
+     background-color: #212121;
+     }
+     
+     
+     .lista {
+       width: 750px;
+       height: 230px;
+       text-align: center;
+       resize: none;
+       background-color: #424242;
+       color: #69F0AE;
+       font-size: 17px;
+       border: 3px solid #69F0AE;
+       border-radius: 10px;
+       overflow: hidden;
+     }
+     .lista:focus {
+     	outline: none;
+     }
+     .afs {
+     	font-weight: bold;
+     }
+     
+     
+     .green {
+        background-color: #4caf50;
+        color: rgba(255, 255, 255, 0.87);
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
+     }
+     .red {
+        background-color: #f44336;
+        color: rgba(255, 255, 255, 0.87);
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
+     }
+     .check {
+     	background-color: #FFAB00;
+     	color: rgba(255, 255, 255, 0.87);
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
+     }
+     .carregadas {
+     	background-color: #1D6FD2;
+     	color: rgba(255, 255, 255, 0.87);
+        padding: 0.25em 0.5em;
+        border-radius: 2px;
+     }
+     
+     
+     .iniciar2 {
+     	width: 180px;
+     	height: 35px;
+         text-align: center;
+     	background-color: #424242;
+     	border-radius: 5px;
+     	border: none;
+     	color: rgba(255, 255, 255, 0.87);
+     	cursor: pointer;
+     	    -webkit-appearance: button;
+     	    transition: all .2s ease-in-out;
+          font-family: 'Aldrich', sans-serif;
+     }
+     .iniciar2:hover {
+     	background-color: #000000;
+     	color: white;
+     }
+     .iniciar2:focus {
+     	outline: none;
+     }
+     
+     
+     .iniciar {
+     	margin-top: 10px;
+     	width: 150px;
+     	height: 50px;
+     	background-color: #424242;
+     	border-radius: 5px;
+     	border: none;
+     	color: rgba(255, 255, 255, 0.87);
+     	cursor: pointer;
+     	    -webkit-appearance: button;
+     	    transition: all .2s ease-in-out;
+          font-family: 'Aldrich', sans-serif;
+     }
+     .iniciar:hover {
+     	background-color: #00C487;
+     	color: white;
+     }
+     .iniciar:focus {
+     	outline: none;
+     }
+     
+     
+     .copiar {
+     	margin-top: 3px;
+         margin-left: 1px;
+         margin-right: 3px;
+     	width: 50px;
+     	height: 27px;
+     	background-color: #5A5A5A;
+     	border-radius: 5px;
+     	border: none;
+     	color: white;
+     	cursor: pointer;
+     	    -webkit-appearance: button;
+     	    transition: all .2s ease-in-out;
+          font-family: 'Aldrich', sans-serif;
+     }
+     .copiar:hover {
+     	background-color: #000000;
+     	color: white;
+     }
+     .copiar:focus {
+     	outline: none;
+     }
+     
+     
+     .parar {
+     	margin-top: 10px;
+     	width: 150px;
+     	height: 50px;
+     	background-color: #424242;
+     	border-radius: 5px;
+     	border: none;
+     	color: rgba(255, 255, 255, 0.87);
+     	cursor: pointer;
+     	    -webkit-appearance: button;
+     	    transition: all .2s ease-in-out;
+          font-family: 'Aldrich', sans-serif;
+     }
+     .parar:hover {
+     	background-color: #FF0000;
+     	color: white;
+     }
+     .parar:focus {
+     	outline: none;
+     }
+    
+    
+    .back {
+     color: #1ABB9C;
+     text-decoration: none;
+    }
+    .back:hover {
+      text-shadow: 1px 1px 1px #1ABB9C;
+    }
+    
+    
+    .painel-aprovada{
+      border-radius: 8px;
+      background-color: #424242;
+      width: 700px;
+      height: 200px;
+      text-align: center;
+      border-right: 3px solid #00BC8C;
+      border-left: 3px solid #00BC8C;
+      border-bottom: 3px solid #00BC8C;
+    }
+    .painel-aprovada2{
+      border-radius: 8px 8px 0px 0px;
+      width: 700px;
+      height: 30px;
+      text-align: center;
+      background-color: #00BC8C;
+      border-bottom: 3px solid transparent;
+    }
+    
+    
+    .painel-reprovada{
+      border-radius: 8px;
+      background-color: #424242;
+      width: 700px;
+      height: 200px;
+      text-align: center;
+      border-right: 3px solid #E74C3C;
+      border-left: 3px solid #E74C3C;
+      border-bottom: 3px solid #E74C3C;
+    }
+    .painel-reprovada2{
+      border-radius: 8px 8px 0px 0px;
+      text-align: center;
+      width: 700px;
+      height: 30px;
+      text-align: center;
+      background-color: #E74C3C;
+      border-bottom: 3px solid transparent;
+    }
